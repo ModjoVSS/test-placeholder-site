@@ -68,6 +68,46 @@ a:hover {
   color: #a996ff;
 }
 
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+button {
+  border: 0;
+  border-radius: 999px;
+  padding: 12px 18px;
+  background: #f7f7fb;
+  color: #11131c;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+body.light {
+  background:
+    radial-gradient(circle at 20% 20%, #d8cfff 0, transparent 35%),
+    radial-gradient(circle at 80% 80%, #bdebf2 0, transparent 35%),
+    #eef0f7;
+  color: #171925;
+}
+
+body.light .card {
+  background: rgb(255 255 255 / 78%);
+  border-color: rgb(0 0 0 / 10%);
+}
+
+body.light p,
+body.light footer {
+  color: #55596a;
+}
+
+body.light a {
+  color: #5032c8;
+}
+
 footer {
   margin-top: 48px;
   color: #777b8f;
