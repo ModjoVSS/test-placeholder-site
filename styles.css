@@ -67,3 +67,9 @@ a {
 a:hover {
   color: #a996ff;
 }
+
+footer {
+  margin-top: 48px;
+  color: #777b8f;
+  font-size: 14px;
+}
